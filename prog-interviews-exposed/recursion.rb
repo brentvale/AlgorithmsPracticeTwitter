@@ -17,6 +17,6 @@ def factorial(n)
   n * factorial(n-1)
 end
 
-puts factorial(6)
+puts factorial(7)
 
 #=> 6*5 = 30 * 4 = 120 * 3 = 360 * 2 = 720 
