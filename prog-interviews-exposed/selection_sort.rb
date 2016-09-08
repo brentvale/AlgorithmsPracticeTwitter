@@ -36,32 +36,4 @@ end
 array = [9, 4, 6, 5, 7, 3, 2, 1, 8, 12, 11]
 print selection_sort(array, 0)
 
-# def selection_sort(array)
-#   puts "array is #{array}"
-#   array.each_index do |idx|
-#     current_index = idx
-#     target_jdx = -1
-#     puts "*******"
-#     puts "array[idx+1..-1] = #{array[idx+1..-1]}"
-#
-#     temp = array[idx+1..-1]
-#     temp.each_index do |jdx|
-#
-#       if temp[jdx] < array[current_index]
-#         target_jdx = jdx + idx
-#       end
-#     end
-#
-#     unless target_jdx == -1
-#       array[idx], array[target_jdx] = array[target_jdx], array[idx]
-#     end
-#
-#   end
-#   return array
-# end
-#
-# arrayOne = [3, 2, 1]
-# print selection_sort(arrayOne)
-#
-# array = [9, 4, 6, 5, 7, 3, 2, 1, 8, 12, 11]
-# print selection_sort(array)
+
